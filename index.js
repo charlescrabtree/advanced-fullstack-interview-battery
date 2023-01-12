@@ -13,6 +13,6 @@ for(let i = ".".length;i <= (max * max);i++){
     array.push(i)
   }
 }
-console.log(array);
+console.log(array.join('\r\n'));
 }
 fizzbuzz();
